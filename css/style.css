@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    background-color: #212529; /* Dark background for the body */
+    color: #f8f9fa; /* Light text color for readability */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Default text color */
+}
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+
+.social-links {
+    display: flex;
+    gap: 1rem; /* Spacing between icons */
+}
+
+.social-links a {
+    color: #ffffff; /* Default icon color */
+    font-size: 2rem; /* Adjust size as needed */
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+    color: #007bff; /* Color on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+span{
+    color:#007bff ;
+}
+ 
+.body{
+    margin-top: 150px;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 300px;
+    
+}
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Style the image */
+.hover-image {
+    display: block;
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+
+/* Hover effect */
+.image-container:hover .hover-image {
+    transform: scale(1.05); /* Slight zoom-in effect */
+    filter: brightness(1.1); /* Slightly brighten the image */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Light blur effect around the image */
+    border: 5px solid rgba(255, 255, 255, 0.5); /* Light border effect */
+}
+
+.btn-warning {  
+    background-color: #FFC107;  
+    border-color: #FFC107;  
+  }  
+    
+  .btn-warning:hover {  
+    background-color: #FFA07A;  
+    border-color: #FFA07A;  
+  }
+  
